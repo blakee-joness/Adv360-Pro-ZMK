@@ -21,15 +21,6 @@
         };
     };
 
-    macros {
-        vscodecmd: vscodecmd {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp>;
-            label = "VSCODECMD";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
